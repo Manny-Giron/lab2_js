@@ -2,6 +2,14 @@
 /* change the font of the whole website */
 /* change the font color of the whole website */
 /* change the font size of the whole website */
+body {
+  background-color: rgb(161, 161, 161);
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+}
+
+
 
 
 /* change all h1 and h2 tags to be: 
@@ -9,21 +17,40 @@
   - underlined
   - a color of your choosing
 */
+h1 {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
 
+h2 {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
 
 /* change all h3 tags to be: 
   - underlined
   - a different color from the h1 and h2 tags 
 */
+h3 {
+  text-decoration: underline;
+  color: rgb(10, 13, 106);
+}
 
 
 /* create a para1homepage id to have: 
   - a text color of your choosing 
 */
+#para1homepage {
+  color: #555555;
+}
 
 
 /* create a center class that centers text */
-
+.center {
+  text-align: center;
+}
 
 /* create a paragraph class of p tags that has:
   - a font size of your choosing
@@ -32,7 +59,13 @@
   - a solid black border of 2px
   - rounded edges of 10px
 */
-
+.paragraph p {
+  font-size: 14px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
 /* create a para4homepage id that has:
   - a font size of your choosing
@@ -44,26 +77,53 @@
   - a thick ridge border with color of your choosing
 */
 
+#para4homepage {
+  font-size: 20px;
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: ridge 10px red
+}
 
 /* create a divmain id that has: 
   - a font color of your choosing
   - centered
 */
+#divmain {
+  color: #590f5c;
+  text-align: center;
+}
 
 
 /* create a divcampus class that has:
   - a font color of your choosing
 */
-
+.divcampus {
+  color: #e999b2;
+}
 
 /* create a divcontent class that has:
   - a font color of your choosing
 */
-
+.divcontent {
+  color: #0475ae;
+}
 
 /* create a highlight class that has:
   - a font color of your choosing
 */
-
+.highlight {
+  color: #0e2290;
+}
 
 /* change all links to blue but a different color when visited and a different color when hovered over */
+a:link {
+  color: rgb(0, 72, 255);
+}
+
+a:hover {
+  color: rgb(165, 172, 255);
+}
